@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+}
+img{
+    height: 90vh;
+    width: 80vw;
+}
+.carousel{
+    overflow: hidden;
+}
+.carousel_items
+ {
+     /* background-color: aqua; */
+    position: relative;
+    left: 150px;
+    top: 30px;
+    overflow: hidden;
+}
+.carousel .carousel_items,
+.carousel .carousel_items--hidden
+{
+    display: none;
+}
+.carousel .carousel_item--visible{
+    display: block;
+}
+.carousel .carousel_actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #carousel_action_prev{
+      margin-left: 30px;
+  }
+  #carousel_action_next{
+    margin-right: 30px;
+}
+  
